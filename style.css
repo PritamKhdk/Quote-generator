@@ -10,7 +10,13 @@
   #f4f4f4;
     color: #333;
     padding: 2rem;
-    transition: all 0.3s ease;
+  }
+
+  body.dark-mode {
+    background-color: 
+  #1e1e1e;
+    color: 
+  #f1f1f1;
   }
   
   .container {
@@ -20,7 +26,11 @@
     padding: 2rem;
     border-radius: 16px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
+  }
+
+  body.dark-mode .container {
+    background-color: 
+  #2c2c2c;
   }
 
   header {
@@ -60,6 +70,12 @@
   select:hover, button:hover {
     background-color:#e0e0e0;;
   }
+
+  body.dark-mode select,
+body.dark-mode button {
+  background-color: #444;
+  color: white;
+}
   
   .font-size button {
     margin-left: 0.5rem;
@@ -72,6 +88,11 @@
     border-radius: 12px;
     text-align: center;
     margin-bottom: 1.5rem;
+  }
+
+  body.dark-mode .quote-box {
+    background-color: 
+  #3a3a3a;
   }
   
   #quoteText {
